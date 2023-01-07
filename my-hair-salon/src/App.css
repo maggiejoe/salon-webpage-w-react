@@ -12,6 +12,12 @@ body {
 .header-font {
   font-family: 'Ovo', serif;
   font-weight: 400;
-  
+
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
