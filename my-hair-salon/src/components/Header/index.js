@@ -14,29 +14,29 @@ function Header() {
                     <Container>
                         <Row>
                             <Col className='p-5'>
-                                <Nav.Link className='header-font fs-5'>About</Nav.Link>
+                                <Nav.Link className='header-font fs-5'>Stylists</Nav.Link>
                             </Col>
                             <Col className='p-5'>
-                                <Nav.Link className='header-font fs-5'>Stylists</Nav.Link>
+                                <Nav.Link className='header-font fs-5'>Services</Nav.Link>
                             </Col>
                             <Col className='p-5'>
                                 <Nav.Link href='/booking-page' className='header-font fs-5'>Book</Nav.Link>
                             </Col>
                         </Row>
                     </Container>
-                    <Navbar.Brand href='/' className='mx-auto d-flex align-items-center'>
+                    <Navbar.Brand href='/landing-page' className='mx-auto d-flex align-items-center'>
                         <img src={logo} alt='hair-salon-logo' height={'150px'} width={'150px'}></img>
                     </Navbar.Brand>
                     <Container>
                         <Row>
                             <Col className='p-5'>
+                                <Nav.Link className='header-font fs-5'>Gallery</Nav.Link>
+                            </Col>
+                            <Col className='p-5'>
                                 <Nav.Link href='/locations-page' className='header-font fs-5'>Location</Nav.Link>
                             </Col>
                             <Col className='p-5'>
-                                <Nav.Link className='header-font fs-5'>Services</Nav.Link>
-                            </Col>
-                            <Col className='p-5'>
-                                <Nav.Link className='header-font fs-5'>Gallery</Nav.Link>
+                                <Nav.Link href='/' className='header-font fs-5'>Contact</Nav.Link>
                             </Col>
                         </Row>
                     </Container>
