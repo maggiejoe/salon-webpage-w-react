@@ -1,16 +1,13 @@
 import React from 'react';
-import Map from '../Map/index.js';
 
-import { Container } from 'react-bootstrap';
+import { Container} from 'react-bootstrap';
 function Footer() {
     return (
         <div>
-            <div className="p-3 text-center footer">
+            <div className="text-center footer">
+
                 <Container>
-                    <div className='d-flex justify-content-center'>
-                        <Map></Map>
-                    </div>
-                    <div>
+                    <div className='p-2 m-0'>
                         &copy; Borcelle Hair Salon
                     </div>
                 </Container>
