@@ -15,7 +15,10 @@ function BookingForm() {
     };
 
     return (
-        <Form onSubmit={handleSubmit}>
+        <Form
+            onSubmit={handleSubmit}
+            className='border m-2 p-4 rounded shadow'
+        >
             <Form.Group>
                 <Form.Label className='p-1 m-0 d-flex justify-content-start'>
                     Name
@@ -110,7 +113,7 @@ function BookingForm() {
             </Form.Group>
             <Button
                 type='submit'
-                className='m-2 px-5'
+                className='m-2 px-5 d-flex justify-content-center'
             >
                 Submit
             </Button>

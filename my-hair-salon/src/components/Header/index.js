@@ -1,8 +1,9 @@
 import React from 'react';
+// import { Link } from 'react-router-dom';
 
 import logo from '../../assets/hair-salon-logo.png';
 
-import { Navbar, Container, Row, Col } from 'react-bootstrap';
+import { Navbar, Nav, Container, Row, Col } from 'react-bootstrap';
 
 function Header() {
 
@@ -13,13 +14,13 @@ function Header() {
                     <Container>
                         <Row>
                             <Col className='p-5'>
-                                <h1 className='header-font fs-5'>About</h1>
+                                <Nav.Link className='header-font fs-5'>About</Nav.Link>
                             </Col>
                             <Col className='p-5'>
-                                <h1 className='header-font fs-5'>Stylists</h1>
+                                <Nav.Link className='header-font fs-5'>Stylists</Nav.Link>
                             </Col>
                             <Col className='p-5'>
-                                <h1 className='header-font fs-5'>Book</h1>
+                                <Nav.Link href='/booking-page' className='header-font fs-5'>Book</Nav.Link>
                             </Col>
                         </Row>
                     </Container>
@@ -29,13 +30,13 @@ function Header() {
                     <Container>
                         <Row>
                             <Col className='p-5'>
-                                <h1 className='header-font fs-5'>Location</h1>
+                                <Nav.Link className='header-font fs-5'>Location</Nav.Link>
                             </Col>
                             <Col className='p-5'>
-                                <h1 className='header-font fs-5'>Services</h1>
+                                <Nav.Link className='header-font fs-5'>Services</Nav.Link>
                             </Col>
                             <Col className='p-5'>
-                                <h1 className='header-font fs-5'>Gallery</h1>
+                                <Nav.Link className='header-font fs-5'>Gallery</Nav.Link>
                             </Col>
                         </Row>
                     </Container>
