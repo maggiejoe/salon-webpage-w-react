@@ -24,7 +24,7 @@ function Header() {
                             </Col>
                         </Row>
                     </Container>
-                    <Navbar.Brand href='/landing-page' className='mx-auto d-flex align-items-center'>
+                    <Navbar.Brand href='/' className='mx-auto d-flex align-items-center'>
                         <img src={logo} alt='hair-salon-logo' height={'150px'} width={'150px'}></img>
                     </Navbar.Brand>
                     <Container>
