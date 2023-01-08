@@ -30,7 +30,7 @@ function Header() {
                     <Container>
                         <Row>
                             <Col className='p-5'>
-                                <Nav.Link className='header-font fs-5'>Location</Nav.Link>
+                                <Nav.Link href='/locations-page' className='header-font fs-5'>Location</Nav.Link>
                             </Col>
                             <Col className='p-5'>
                                 <Nav.Link className='header-font fs-5'>Services</Nav.Link>
