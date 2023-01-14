@@ -18,14 +18,14 @@ function LandingPage() {
         >
             <Container>
                 <Row className=''>
-                    <Col className="blurred-bg m-5">
-                        <h1 className="text-content border">This is a container</h1>
+                    <Col className="center-container blurred-bg m-5">
+                        <h1 className="text-content border rounded">This is a container</h1>
                     </Col>
-                    <Col className="blurred-bg m-5">
-                        <h1 className="text-content border">This is a container</h1>
+                    <Col className="center-container blurred-bg m-5">
+                        <h1 className="text-content border rounded">This is a container</h1>
                     </Col>
-                    <Col className="blurred-bg m-5">
-                        <h1 className="text-content border">This is a container</h1>
+                    <Col className="center-container blurred-bg m-5">
+                        <h1 className="text-content border rounded">This is a container</h1>
                     </Col>
                 </Row>
             </Container>

@@ -52,6 +52,9 @@ body {
 
 .blurred-bg {
   position: relative;
+  left: 13%;
+  right: 50%;
+  transform: translate(-50%, 150%);
 }
 
 .blurred-bg::before {
@@ -71,3 +74,12 @@ body {
   padding: 20px;
   color: var(--primary);
 }
+
+/* .center-container {
+  position: absolute;
+  top: 25%;
+  bottom: 25%;
+  left: 25%;
+  right: 25%;
+  transform: translate(-50%, -50%);
+} */
