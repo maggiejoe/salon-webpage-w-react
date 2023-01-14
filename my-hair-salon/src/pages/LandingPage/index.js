@@ -17,14 +17,14 @@ function LandingPage() {
         style={bgStyles}
         >
             <Container>
-                <Row>
-                    <Col className="m-5">
+                <Row className=''>
+                    <Col className="blurred-bg m-5">
                         <h1 className="text-content border">This is a container</h1>
                     </Col>
-                    <Col className="m-5">
+                    <Col className="blurred-bg m-5">
                         <h1 className="text-content border">This is a container</h1>
                     </Col>
-                    <Col className="m-5">
+                    <Col className="blurred-bg m-5">
                         <h1 className="text-content border">This is a container</h1>
                     </Col>
                 </Row>
