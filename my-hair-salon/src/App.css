@@ -19,28 +19,38 @@ body {
 
 }
 
+.header-wrapper {
+  background: var(--primary);
+  position: -webkit-sticky; /* for Safari */
+  position: sticky;
+  top: 0; /* position the header at the top of the screen */
+  z-index: 1; /* ensure the header appears above other elements on the page */
+}
+
 .footer {
   position: fixed;
   bottom: 0;
   width: 100%;
 }
 
-.hero-img {
-  width: 100%;
-  height: 100%;
-}
-
 .footer-bg {
   background-color: var(--primary);
 }
 
-.landing-page-background {
-  position: relative;
-  /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%); */
+.background-img {
+  background: url('./assets/landing-page-img.png') no-repeat center center fixed;
+  background-size: cover;
 }
 
-.landing-page-background::before {
+
+
+/* .landing-page-background {
+  position: relative;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+} */
+
+/* .landing-page-background::before {
   content: "";
   position: absolute;
   top: 0;
@@ -50,9 +60,9 @@ body {
   background-image: url('./assets/landing-page-img.png');
   background-size: cover;
   background-repeat: no-repeat;
-}
+} */
 
-.blurred-bg {
+/* .blurred-bg {
   position: relative;
   left: 13%;
   right: 50%;
@@ -76,4 +86,4 @@ body {
   z-index: 1;
   padding: 20px;
   color: var(--primary);
-}
+} */

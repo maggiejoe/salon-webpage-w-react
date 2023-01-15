@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 
 function LandingPage() {
 
@@ -9,26 +9,23 @@ function LandingPage() {
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
         height: '100vh',
-        width: '100%',
+        width: '100'
+    }
+
+    const containerStyles = {
+        height: '100vh',
+        overflow: 'hidden'
     }
 
     return (
-        <div className='landing-page-background'
-        style={bgStyles}
-        >
-            <Container>
-                <Row className=''>
-                    <Col className="center-container blurred-bg m-5 p-0 rounded">
-                        <h1 className="text-content rounded">This is a container</h1>
-                    </Col>
-                    <Col className="center-container blurred-bg m-5 p-0 rounded">
-                        <h1 className="text-content rounded">This is a container</h1>
-                    </Col>
-                    <Col className="center-container blurred-bg m-5 p-0 rounded">
-                        <h1 className="text-content rounded">This is a container</h1>
-                    </Col>
-                </Row>
-            </Container>
+        <div>
+            <div className='background-img p-0 m-0' style={bgStyles}>
+                <Container>
+                    <Row>
+                        <h1 className='m-0 p-0 d-flex justify-content-center align-items-center' style={containerStyles}>Container Header</h1>
+                    </Row>
+                </Container>
+            </div>
         </div>
     )
 }
