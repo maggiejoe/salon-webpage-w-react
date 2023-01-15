@@ -5,24 +5,19 @@ import { Container, Row } from 'react-bootstrap';
 function LandingPage() {
 
     const bgStyles = {
-        backgroundSize: 'cover',
+        backgroundSize: 'contain',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
-        height: '100vh',
-        width: '100'
-    }
-
-    const containerStyles = {
-        height: '100vh',
-        overflow: 'hidden'
+        height: '80vh',
+        width: '100%'
     }
 
     return (
-        <div>
-            <div className='background-img p-0 m-0' style={bgStyles}>
+        <div className='landingPageContainer' style={{ width: '100%' }}>
+            <div className='background-img' style={bgStyles}>
                 <Container>
                     <Row>
-                        <h1 className='m-0 p-0 d-flex justify-content-center align-items-center' style={containerStyles}>Container Header</h1>
+                        <h1 className='d-flex justify-content-center align-items-center'>Container Header</h1>
                     </Row>
                 </Container>
             </div>

@@ -39,7 +39,7 @@ body {
 
 .background-img {
   background: url('./assets/landing-page-img.png') no-repeat center center fixed;
-  background-size: cover;
+  background-size: contain;
 }
 
 
