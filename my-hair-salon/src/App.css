@@ -14,11 +14,6 @@ body {
   height: 100%;
 }
 
-.text-forward {
-  z-index: 1;
-  background-clip: text;
-}
-
 /* HEADER */
 .header-font {
   font-family: 'Ovo', serif;
@@ -54,6 +49,5 @@ body {
 }
 
 .landingPage-ContainerBg {
-  background-color: var(--primary);
-  opacity: 0.3;
+  background-color: rgba(255, 255, 255, 0.2);
 }
