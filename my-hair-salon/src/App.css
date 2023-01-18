@@ -23,10 +23,13 @@ body {
 
 .header-wrapper {
   background: var(--primary);
-  position: -webkit-sticky; /* for Safari */
+  position: -webkit-sticky;
+  /* for Safari */
   position: sticky;
-  top: 0; /* position the header at the top of the screen */
-  z-index: 1; /* ensure the header appears above other elements on the page */
+  top: 0;
+  /* position the header at the top of the screen */
+  z-index: 1;
+  /* ensure the header appears above other elements on the page */
 }
 
 /* FOOTER */
@@ -43,11 +46,19 @@ body {
 /* LANDING PAGE */
 .background-img {
   background-image: url('./assets/landing-page-img.png');
-  background-position:unset;
+  background-position: unset;
   height: 100vh;
   width: 100%;
 }
 
 .landingPage-ContainerBg {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, .25);
+  background: linear-gradient(120deg rgba(255, 255, 255, .25),
+      rgba(255, 255, 255, .25), 70%,
+      rgba(255, 255, 255, .25),
+    );
+  backdrop-filter: blur(15px) saturate(100%);
 }
