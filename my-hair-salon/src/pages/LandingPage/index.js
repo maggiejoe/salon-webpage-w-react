@@ -28,7 +28,21 @@ function LandingPage() {
                 <Col className='d-flex flex-wrap justify-content-end m-0 mt-5 col-5'>
                     <div className='landingPage-ContainerBg  p-3 rounded shadow-lg'>
                         <h1 className=''>Placeholder title</h1>
-                        <p>lorem Ipsum</p>
+                        <p>
+                            lorem ipsum
+                        </p>
+                        <p>
+                            lorem ipsum
+                        </p>
+                        <p>
+                            lorem ipsum
+                        </p>
+                        <p>
+                            lorem ipsum
+                        </p>
+                        <p>
+                            lorem ipsum
+                        </p>
 
                         <Button className='d-flex justify-content-center'>
                             Book Now!
