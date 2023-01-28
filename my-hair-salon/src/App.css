@@ -34,7 +34,7 @@ body {
 
 /* FOOTER */
 .footer {
-  position: fixed;
+  position: sticky;
   bottom: 0;
   width: 100%;
 }
@@ -44,7 +44,7 @@ body {
 }
 
 /* LANDING PAGE */
-.background-img {
+.landingPage-background-img {
   background-image: url('./assets/landing-page-img.png');
   background-position-x: -5rem;
   background-position-y: -5rem;
@@ -71,4 +71,17 @@ body {
 
 .landingPage-indContainer {
   width: fit-content;
+}
+
+.stylist-img {
+  height: 200px;
+  width: 200px;
+  /* overflow: hidden; */
+  object-fit: cover !important;
+}
+
+.stylist-background-img {
+  background-image: url('./assets/stylist-background-img.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }

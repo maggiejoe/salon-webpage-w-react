@@ -5,7 +5,7 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 function LandingPage() {
 
     return (
-        <div className='background-img d-flex align-items-center'>
+        <div className='landingPage-background-img d-flex align-items-center'>
             <Container className='d-flex flex-wrap'>
                 <Col className='d-flex flex-wrap my-5'>
                     <Row className='d-flex m-4'>
