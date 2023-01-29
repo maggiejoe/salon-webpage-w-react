@@ -6,7 +6,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 function LocationsPage() {
     return (
-        <div>
+        <div className='body-content'>
             <Container>
                 <Row>
                     <Col className=''>

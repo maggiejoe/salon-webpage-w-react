@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Col, Row, Card } from 'react-bootstrap';
 import headshot from '../../assets/stylist-headshot.jpg';
 
-function Stylists() {
+function StylistsPage() {
     return (
         <div className='stylist-background-img d-flex align-items-center'>
             <Container className='mt-4'>
@@ -68,4 +68,4 @@ function Stylists() {
         </div>
     )
 }
-export default Stylists;
+export default StylistsPage;
