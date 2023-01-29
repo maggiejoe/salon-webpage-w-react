@@ -87,3 +87,12 @@ body {
   background-size: cover;
   z-index: 1 !important;
 }
+
+/* SERVICES PAGE */
+.services-background-img {
+  background-image: url('./assets/services-background-img.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position-y: center;
+  z-index: 1 !important;
+}
