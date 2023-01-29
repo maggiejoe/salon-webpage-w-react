@@ -54,7 +54,7 @@ body {
   /* height: 80vh; */
 }
 
-.landingPage-ContainerBg {
+.blurred-container-bg {
   background-color: rgba(255, 255, 255, 0.15);
   border-radius: 30px;
   -webkit-border-radius: 20px;
