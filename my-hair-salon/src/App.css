@@ -96,3 +96,7 @@ body {
   background-position-y: center;
   z-index: 1 !important;
 }
+
+.text-deco {
+  text-decoration: none;
+}

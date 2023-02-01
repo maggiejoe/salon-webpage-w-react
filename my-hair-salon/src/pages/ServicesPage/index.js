@@ -7,16 +7,16 @@ function ServicesPage() {
             <Container className="">
                 <Row className="">
                     <Col className="d-flex col-3">
-                        <div className="blurred-container-bg p-3">
+                        <div className="blurred-container-bg p-3 w-100">
                             <h1 className='d-flex justify-content-center fs-3'>Cut's & Washes</h1>
-                            <ul className="text-decoration-none">
-                                <li>Wash, Cut & Style</li>
+                            <ul className="">
+                                <li className="text-deco">Wash, Cut & Style</li>
                                 <li>Children Wash, Cut & style {'('}10 and under{')'}</li>
                             </ul>
                         </div>
                     </Col>
                     <Col className="d-flex col-3">
-                        <div className="blurred-container-bg p-3">
+                        <div className="blurred-container-bg p-3 w-100">
                             <h1 className='d-flex justify-content-center fs-3'>Up-do's & Styles</h1>
                             <ul>
                                 <li>Wash and Blowdry</li>
@@ -27,7 +27,7 @@ function ServicesPage() {
                         </div>
                     </Col>
                     <Col className="d-flex col-3">
-                        <div className="blurred-container-bg p-3">
+                        <div className="blurred-container-bg p-3 w-100">
                             <h1 className='d-flex justify-content-center fs-3'>Color & Highlights</h1>
                             <ul>
                                 <li>Roots & Blowdry</li>
@@ -39,7 +39,7 @@ function ServicesPage() {
                         </div>
                     </Col>
                     <Col className="d-flex col-3">
-                        <div className="blurred-container-bg p-3">
+                        <div className="blurred-container-bg p-3 w-100">
                             <h1 className='d-flex justify-content-center fs-3'>Chemical Treatments</h1>
                             <ul>
                                 <li>Perm</li>
