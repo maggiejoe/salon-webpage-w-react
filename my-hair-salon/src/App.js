@@ -8,8 +8,10 @@ import LocationsPage from './pages/LocationsPage';
 import LandingPage from './pages/LandingPage';
 import StylistsPage from './pages/StylistsPage';
 import ServicesPage from './pages/ServicesPage';
+import GalleryPage from './pages/GalleryPage';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 function App() {
   return (
     <Router>
@@ -20,6 +22,7 @@ function App() {
         <Route exact path='/' element={<LandingPage />}></Route>
         <Route exact path='/stylists' element={<StylistsPage />}></Route>
         <Route exact path='/services' element={<ServicesPage />}></Route>
+        <Route exact path='/gallery' element={<GalleryPage />}></Route>
       </Routes>
       <Footer />
     </Router>

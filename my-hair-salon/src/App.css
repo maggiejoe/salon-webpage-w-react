@@ -96,3 +96,11 @@ body {
   background-position-y: center;
   z-index: 1 !important;
 }
+
+/* GALLERY PAGE */
+.gallery-background-img {
+  background-image: url('./assets/gallery-background-image.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+  z-index: 1 !important;
+}
