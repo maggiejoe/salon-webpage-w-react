@@ -37,7 +37,7 @@ function Header() {
                                     <Nav.Link href='/locations-page' className='header-font fs-5'>Location</Nav.Link>
                                 </Col>
                                 <Col className='p-5'>
-                                    <Nav.Link href='/' className='header-font fs-5'>Contact</Nav.Link>
+                                    <Nav.Link href='/contact' className='header-font fs-5'>Contact</Nav.Link>
                                 </Col>
                             </Row>
                         </Container>
