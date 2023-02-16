@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Button, Form, Container, Col } from 'react-bootstrap';
+import video from '../../assets/contact-video.mp4';
 
 function ContactPage() {
 
@@ -53,7 +54,7 @@ function ContactPage() {
                             <Form.Control
                                 type='text'
                                 value={request}
-                                style={{ height: 100, verticalAlign: "top"  }}
+                                style={{ height: 100, verticalAlign: "top" }}
                                 onChange={(event) =>
                                     setRequest(event.target.value)
                                 }
@@ -68,9 +69,7 @@ function ContactPage() {
                     </Form>
                 </Col>
                 <Col className='col-7 m-3'>
-                    <video className='rounded w-100 h-100' controls>
-                        <source src='../../assets/contact-video.mp4' type='video/mp4' />
-                    </video>
+                    <video src={video} width="600" height="300" controls="controls" autoplay="true" loop="true" className='w-100 h-100 rounded d-flex align-items-center'/>
                 </Col>
             </Container>
         </div >
