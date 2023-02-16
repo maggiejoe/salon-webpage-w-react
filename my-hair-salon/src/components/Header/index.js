@@ -3,7 +3,7 @@ import React from 'react';
 
 import logo from '../../assets/hair-salon-logo.png';
 
-import { Navbar, Nav, Container, Row, Col } from 'react-bootstrap';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 
 function Header() {
 
@@ -13,33 +13,21 @@ function Header() {
                 <Navbar>
                     <Container>
                         <Container>
-                            <Row>
-                                <Col className='p-5'>
-                                    <Nav.Link href='/stylists' className='header-font fs-5'>Stylists</Nav.Link>
-                                </Col>
-                                <Col className='p-5'>
-                                    <Nav.Link href='/services' className='header-font fs-5'>Services</Nav.Link>
-                                </Col>
-                                <Col className='p-5'>
-                                    <Nav.Link href='/booking-page' className='header-font fs-5'>Book</Nav.Link>
-                                </Col>
-                            </Row>
+                            <Nav className='d-flex justify-content-start'>
+                                <Nav.Link href='/stylists' className='p-5 header-font fs-5'>Stylists</Nav.Link>
+                                <Nav.Link href='/services' className='p-5 header-font fs-5'>Services</Nav.Link>
+                                <Nav.Link href='/booking-page' className='p-5 header-font fs-5'>Book</Nav.Link>
+                            </Nav>
                         </Container>
                         <Navbar.Brand href='/' className='mx-auto d-flex align-items-center'>
                             <img src={logo} alt='hair-salon-logo' height={'150px'} width={'150px'}></img>
                         </Navbar.Brand>
                         <Container>
-                            <Row>
-                                <Col className='p-5'>
-                                    <Nav.Link href='/gallery' className='header-font fs-5'>Gallery</Nav.Link>
-                                </Col>
-                                <Col className='p-5'>
-                                    <Nav.Link href='/locations-page' className='header-font fs-5'>Location</Nav.Link>
-                                </Col>
-                                <Col className='p-5'>
-                                    <Nav.Link href='/contact' className='header-font fs-5'>Contact</Nav.Link>
-                                </Col>
-                            </Row>
+                            <Nav className='d-flex justify-content-end'>
+                                <Nav.Link href='/gallery' className='p-5 header-font fs-5'>Gallery</Nav.Link>
+                                <Nav.Link href='/locations-page' className='p-5 header-font fs-5'>Location</Nav.Link>
+                                <Nav.Link href='/contact' className='p-5 header-font fs-5'>Contact</Nav.Link>
+                            </Nav>
                         </Container>
                     </Container>
                 </Navbar>
